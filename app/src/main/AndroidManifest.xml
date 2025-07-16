@@ -5,11 +5,10 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="QuoteApp"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+        android:theme="@style/Theme.Quotato">
         <activity android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
